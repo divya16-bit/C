@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int t=0;
+    scanf("%d", &t);
+    int a=0;
+    int b=0;
+    int c=0;
+    int d=0;
+    a=(t%100)%10; 
+    b=(t%100)/10;  
+    c=t/100; 
+    d=a*100+b*10+c*1;
+    printf("%d",d);
+    return 0;
+}
